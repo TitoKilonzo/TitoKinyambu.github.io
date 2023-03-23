@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>KYLE'S UNIVERSITY</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="header">
+                <nav>
+                <a href="index.html"><img src="images/Kyle's.jpg"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="About.html">ABOUT</a></li>
+                        <li><a href="Course.html">COURSE</a></li>
+                        <li><a href="Blog.html">BLOG</a></li>
+                        <li><a href="Contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h1>KYLE'S UNIVERSITY</h1>
+                <p>KYLE'S UNIVERSITY is now one of the Best and Most Ranked University. 
+                    <br>Success is embraced in KYLE'S UNIVERSITY.<br>You just need to comply with the University standards and you are good to Enrol!
+                </p>
+            </div>
+            
+        </div>
+
+<!--------- Course --------->
+<selection class="Course">
+    <h1>Courses We Offer</h1>
+    <p>Kyle's University Offers a number of courses</p>
+
+    <div class="row">
+    <div class="Course-col">
+        <h3>Intermediate</h3>
+        <p>Are you looking to start a Your Course career or even seeking to advance your already existing knowledge to the next level? <br>Welcome to Kyle's University!</p>
+    </div>
+    <div class="Course-col">
+        <h3>Degree</h3>
+        <p>Are you looking to start a Your Course career or even seeking to advance your already existing knowledge to the next level? <br>Welcome to Kyle's University!</p>
+    </div>
+    <div class="Course-col">
+        <h3>Post Graduation</h3>
+        <p>Are you looking to start a Your Course career or even seeking to advance your already existing knowledge to the next level? <br>Welcome to Kyle's University!</p>
+    </div>
+    </div>
+
+
+</selection>
+
+<!------- Campus------>
+
+<selection class="Campus">
+    <h1>Our Major Campuses</h1>
+    <p>We have some Campuses which Offer some other courses as well!</p>
+
+    <div class="row">
+        <div class="Campus-col">
+            <img src="images/17.png">
+            <div class="layer">
+                <h3>GOOGLEplex Campus</h3>
+            </div>
+        </div>
+        <div class="Campus-col">
+            <img src="images/18.png">
+            <div class="layer">
+                <h3>Denver Campus</h3>
+            </div>
+        </div>
+        <div class="Campus-col">
+            <img src="images/19.png">
+            <div class="layer">
+                <h3>Anschutz Medical Campus</h3>
+            </div>
+        </div>
+    </div>
+</selection>
+
+<!-----Facilities------>
+
+<section class="Facilities">
+    <h1>Our Facilities</h1>
+
+    <p>At Kyle's University, we've got some facilities that as well suits the standards of our University!</p>
+    
+     <div class="row">
+        <div class="Facilities-col">
+            <img src="images/5.png">
+            <h3>KYLE'S UNIVERSITY LIBRARY</h3>
+            <p>Students at Kyle's University have got one of the Best Library,<br> which has got smart materials for Researchers and for aid of general Knowledge!</p>
+        </div>
+        <div class="Facilities-col">
+            <img src="images/15.png">
+            <h3>KYLE'S University PlayGround</h3>
+            <p>Students at Kyle's University have got one of the Best BasketBall pit,<br>Where students meet up for practice and Tornaments!</p>
+        </div>
+        <div class="Facilities-col">
+            <img src="images/16.png">
+            <h3>Tasty and Healthy Food</h3>
+            <p>Kyle's University has a cafeteria as well,<br>Where students and stuffs go for their meals</p>
+        </div>
+     </div>
+</section>
+
+<!-----Testimonials------>
+
+<section class="Testimonials">
+    <h1>What Our students Says</h1>
+    <p>'Kyle's University has been one of the best University ever,it has helped me pursue a degree in a genuine way!'</p>
+
+    <div class="row">
+        <div class="Testimonials-col">
+            <image src="images/10.png">
+                <div>
+                    <p>Kyle's University has been one of the best University ever,it has helped me pursue a degree in a genuine way!</p>
+                    <h3>Becky Clara</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+        </div>
+        <div class="Testimonials-col">
+            <image src="images/dav.png">
+                <div>
+                    <p>Kyle's University has been one of the best University ever,it has shaped my future and view of Things in a positive Way!</p>
+                    <h3>Carls David</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i
+                </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!----Call To Action----->
+
+<section class="CTA">
+    <h1>Enroll For Our various online Courses <br>Anywhere from The World</h1>
+    <a href="" class="hero-btn">CONTACT US</a>
+</section>
+
+<!----Footer-->
+
+<section class="Footer">
+    <h4>About Us</h4>
+    <p>KYLE'S UNIVERSITY is a University that is best among the top institution that offer the best! It is a chartered institution.</p>
+    <div class="icons">
+        <div class="icon">
+            <a href="https://www.facebook.com/profile.php?id=100081350164027"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="https://instagram.com/kyle_kilonzo?igshid=N2JhNDIwYjc="><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="https://twitter.com/tito_kilonzo/"><ion-icon name="logo-twitter"></ion-icon></a>
+            <a href="https://wa.me/+254799713796"><ion-icon name="logo-whatsapp"></ion-icon></a>
+            <a href="https://join.skype.com/invite/DUpeqsdPUfOU"><ion-icon name="logo-skype"></ion-icon></a>
+        </div>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    </div>
+    <p>Made with<i class="fa fa-heart-o"></i> by KYLE's Tech Designs</p>
+</section>
+
+<!--------javaScript for Toogle Menu-------->
+        <script>
+            var navLinks= document.getElementById("navLinks");
+
+
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function hideMenu(){
+                navLinks.style.right="-200px";
+            }
+
+        </script>
+
+
+
+    </body>
+</html>
